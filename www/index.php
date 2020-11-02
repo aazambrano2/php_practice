@@ -10,7 +10,12 @@
             
             <p> Hello World! <p>
 
-            <?php  include "article-header.php" ?>
+            <?php  
+                $title = "My First Post";
+                $author = "Aaron";
+                $wordCount = 400;
+                include "article-header.php" 
+            ?>
             
             <?php include "html/footer.html"?>
           

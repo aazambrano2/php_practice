@@ -14,7 +14,10 @@
                 $title = "My First Post";
                 $author = "Aaron";
                 $wordCount = 400;
-                include "article-header.php" 
+                include "article-header.php";
+                echo "<br>"; 
+                include "useful-tools.php";
+                sayHi("User");
             ?>
             
             <?php include "html/footer.html"?>

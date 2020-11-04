@@ -6,7 +6,7 @@
     </head>
         <body>
             
-            <?php include "html/header.html"?>
+            <?php include "resources/html/header.html"?>
             
             <p> Hello World! <p>
 
@@ -20,7 +20,7 @@
                 sayHi("User");
             ?>
             
-            <?php include "html/footer.html"?>
+            <?php include "resources/html/footer.html"?>
           
             <script type = "text/javascript"> alert("Welcome!"); </script>
         </body>

@@ -1,7 +1,8 @@
 function sayHi(name,age){
+    //after this line, all text are small
     document.write("<h1>Hello "+ name +"</h1>");
     document.write("<p>You are "+ age +"</p>");
-    alert("Hey");
+    //alert("Hey");
 }
 function add(n1,n2){
     return n1 + n2;

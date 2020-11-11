@@ -82,7 +82,7 @@
 
             class ItalianChef extends Chef {
                 function makeSpaghetti(){
-                    echo "The chef makes Spaghetti (mamamia)";
+                    echo "The chef makes Spaghetti (spicy!)";
                 }
                 //Overwrite
                 function makeSpecialDish(){
